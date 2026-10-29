@@ -4,6 +4,10 @@
 Disc Golf Randomiser is a mobile-first web app intended to add fun challenges to your disc golf rounds.
 
 ## Getting Started
+**Requirements:**
+- [Node](https://nodejs.org)
+- [pnpm](https://pnpm.io/)
+
 To run this project locally, follow these steps:
 
 **1. Clone the repository**
