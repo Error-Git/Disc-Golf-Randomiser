@@ -22,16 +22,18 @@ export default function OptionsModal({ isOpen, onClose }: OptionsModalProps) {
                 <button
                     onClick={onClose}
                     aria-label="Close options"
-                    className="absolute top-3 right-3"
+                    className="absolute top-2 right-3 text-2xl"
                 >
-                    X
+                    ✕
                 </button>
 
-                <h2>Options</h2>
+                <h2
+                    className="mb-4 text-lg font-bold"
+                >Options</h2>
 
-                <hr className="p-2"></hr>
+                <hr></hr>
 
-                <div>
+                <div className="mt-3 mb-3">
                     <p>Source code:</p>
                     <a
                         href="https://github.com/Error-Git/Disc-Golf-Randomiser"
@@ -43,9 +45,9 @@ export default function OptionsModal({ isOpen, onClose }: OptionsModalProps) {
                     </a>
                 </div>
 
-                <hr className="p-2"></hr>
+                <hr></hr>
 
-                <div>
+                <div className="mt-3">
                     <p>Please report bugs and/or issues here:</p>
                     <a
                         href="https://github.com/Error-Git/Disc-Golf-Randomiser/issues"
